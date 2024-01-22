@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository is the home of the music genre classification project developed by Mayank Hirani, Farzan Mirza, and Enzo Saba for the CS4824/ECE5424 Machine Learning course. The aim of this project is to leverage various discriminative machine learning algorithms to accurately classify music tracks into genres based on audio features.
+This repository is the home of the music genre classification project for the CS4824 Machine Learning course at Virginia Tech. The aim of this project is to leverage various discriminative machine learning algorithms to accurately classify music tracks into genres based on audio features.
 
 ## Objective
 
@@ -33,7 +33,7 @@ Model performance is evaluated through cross-validation and feature selection te
 - Jupyter Notebook
 - Libraries: pandas, numpy, scikit-learn, matplotlib
 
-## Project Description
+
 
 The 'MusicGenreClassifiers' project is an exploration into the application of machine learning for classifying music by genre. Through rigorous testing and evaluation, we aim to demonstrate the capability of discriminative models in understanding and categorizing music based on its intrinsic features. The project's GUI enhances the user experience by offering interactive elements to engage with the models' outcomes actively.
 
@@ -54,6 +54,10 @@ To get started with this project:
 
 ## Contributing Members
 
--  **Farzan Mirza** 
+-  **Farzan Mirza:** farzan.mirza@drexel.edu (https://www.linkedin.com/in/farzan-mirza13/) 
 -  **Mayank Hirani**
 - **Enzo Saba**
+
+## Background
+
+This project was initially completed in May 2022 as part of the CS4824 ML course at Virginia Tech. It has been brought back to life to share the work and findings with the community. Please note that this project is not actively maintained, but feel free to explore, use, or contribute to it. While the original project was a collaborative effort, I have lost contact with the other team members, and their GitHub accounts are not linked in this repository. Despite this, I acknowledge their initial contributions to the project. For reference, the original project repository can be found here(https://github.com/sabaenzo/MusicGenreClassifiers). Please note that the improvements and modifications made to this codebase are independent of the original contributors.
