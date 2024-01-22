@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository is the home of the music genre classification project for the CS4824 Machine Learning course at Virginia Tech. The aim of this project is to leverage various discriminative machine learning algorithms to accurately classify music tracks into genres based on audio features.
+This repository is the home of the music genre classification project for the CS4824 Machine Learning course at Virginia Tech. The aim of this project is to leverage various discriminative machine learning algorithms to accurately classify music tracks into genres based on audio features. 
 
 ## Objective
 
@@ -12,7 +12,7 @@ The goal of this project is to develop a Python application capable of classifyi
 
 ### Data Collection
 
-The dataset consists of 10 music genres, each represented by 100 tracks. The features extracted from these tracks provide the basis for differentiating between genres.
+The [original dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) from Kaggle consists of 10 music genres, each represented by 100 tracks. The features extracted from these tracks provide the basis for differentiating between genres.
 
 ### Machine Learning Models
 
@@ -60,4 +60,4 @@ To get started with this project:
 
 ## Background
 
-This project was initially completed in May 2022 as part of the CS4824 ML course at Virginia Tech. It has been brought back to life to share the work and findings with the community. Please note that this project is not actively maintained, but feel free to explore, use, or contribute to it. While the original project was a collaborative effort, I have lost contact with the other team members, and their GitHub accounts are not linked in this repository. Despite this, I acknowledge their initial contributions to the project. For reference, the original project repository can be found here(https://github.com/sabaenzo/MusicGenreClassifiers). Please note that the improvements and modifications made to this codebase are independent of the original contributors.
+This project was initially completed in May 2022 as part of the CS4824 ML course at Virginia Tech. It has been brought back to life to share the work and findings with the community. Please note that this project is not actively maintained, but feel free to explore, use, or contribute to it. While the original project was a collaborative effort, I have lost contact with the other team members, and their GitHub accounts are not linked in this repository. Despite this, I acknowledge their initial contributions to the project. For reference, the original project repository can be found [here](https://github.com/sabaenzo/MusicGenreClassifiers). Please note that the improvements and modifications made to this codebase are independent of the original contributors.
