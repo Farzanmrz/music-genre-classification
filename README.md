@@ -31,7 +31,7 @@ Model performance is evaluated through cross-validation and feature selection te
 
 - Python
 - Jupyter Notebook
-- Libraries: pandas, numpy, scikit-learn, matplotlib
+- Libraries: pandas, numpy, scikit-learn, matplotlib, tensorflow, keras
 
 
 
