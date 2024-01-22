@@ -1,41 +1,63 @@
-# MusicGenreClassifiers
+# Music Genre Classification Using Discriminative ML Algorithms
 
-_This repository contains the software developed by Mayank Hirani, Farzan Mirza, and Enzo Saba for their Machine Learning Final Project._
+## Overview
 
-This project uses different discriminative machine learning classifers to classify the genre of 30-second audio tracks. <br />
+This repository is the home of the music genre classification project for the CS4824 Machine Learning course at Virginia Tech. The aim of this project is to leverage various discriminative machine learning algorithms to accurately classify music tracks into genres based on audio features. 
 
-## Dataset
-The dataset used for this project can be found [here](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) on Kaggle. <br />
-It contains 100 tracks for the following 10 music genres: _blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, and rock._
+## Objective
 
-## How to run and use this project
-This project used anaconda as a package manager. To run the project, you will first need to install the libraries listed <br />
-at the bottom of this page. <br />
+The goal of this project is to develop a Python application capable of classifying 30-second music tracks into their respective genres. To facilitate user interaction, a graphical user interface (GUI) is provided, allowing users to select among different models, compare their performance, and visualize the results in an accessible format.
 
-Run ```main.py``` and it will train/test every model, as well as generate figures for the performance of each model, <br />
-the impurity of the features in the dataset, 10-fold cross-validation, and the F1 score of each model.
+## Methods Used
 
-Note: The dataset is already contained in the repository/zip file and is called ```features_30_sec.csv``` 
+### Data Collection
 
-## Classifiers used
-The following classifiers were implemented to classify our dataset: <br />
-1. KNN
-2. SVM
-3. NN
-4. LR
-5. CNN
+The [original dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) from Kaggle consists of 10 music genres, each represented by 100 tracks. The features extracted from these tracks provide the basis for differentiating between genres.
 
-## Results
-1. KNN: ~67% accuracy
-2. SVM: 71% accurary
-3. NN: 74% accuracy
-4. LR: 71% accuracy
-5. CNN: 75% accuracy
+### Machine Learning Models
 
-### List of libraries
-1. pandas
-2. numpy
-3. scikit-learn
-4. matplotlib
-5. tensorflow
-6. keras
+Several machine learning models were explored:
+- k-Nearest Neighbors (KNN)
+- Support Vector Machines (SVM)
+- Decision Trees
+- Logistic Regression
+- Neural Networks (NN)
+
+### Evaluation Strategy
+
+Model performance is evaluated through cross-validation and feature selection techniques. The GUI displays meaningful figures to compare the efficacy of the various models.
+
+## Technologies
+
+- Python
+- Jupyter Notebook
+- Libraries: pandas, numpy, scikit-learn, matplotlib, tensorflow, keras
+
+
+
+The 'MusicGenreClassifiers' project is an exploration into the application of machine learning for classifying music by genre. Through rigorous testing and evaluation, we aim to demonstrate the capability of discriminative models in understanding and categorizing music based on its intrinsic features. The project's GUI enhances the user experience by offering interactive elements to engage with the models' outcomes actively.
+
+## Methodology
+
+Our approach is methodical and user-centric:
+1. The dataset is prepared by extracting significant audio features.
+2. Various machine learning models are trained and fine-tuned on the dataset.
+3. A GUI is provided for users to interact with the models and visualize results.
+4. Performance metrics are computed and presented for each model.
+
+## Getting Started
+
+To get started with this project:
+1. Clone the repository to your local machine.
+2. Ensure you have the required libraries installed.
+3. Run the main application to train/test models and use the GUI for interaction.
+
+## Contributing Members
+
+-  **Farzan Mirza:** farzan.mirza@drexel.edu (https://www.linkedin.com/in/farzan-mirza13/) 
+-  **Mayank Hirani**
+- **Enzo Saba**
+
+## Background
+
+This project was initially completed in May 2022 as part of the CS4824 ML course at Virginia Tech. It has been brought back to life to share the work and findings with the community. Please note that this project is not actively maintained, but feel free to explore, use, or contribute to it. While the original project was a collaborative effort, I have lost contact with the other team members, and their GitHub accounts are not linked in this repository. Despite this, I acknowledge their initial contributions to the project. For reference, the original project repository can be found [here](https://github.com/sabaenzo/MusicGenreClassifiers). Please note that the improvements and modifications made to this codebase are independent of the original contributors.
